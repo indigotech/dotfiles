@@ -1,0 +1,11 @@
+#osx
+.DS_Store
+
+
+nbproject
+log/*
+server.pid
+tmp/*
+docs
+*.orig
+.bundle/*
