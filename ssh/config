@@ -1,0 +1,5 @@
+Host github.com
+ IdentityFile ~/.ssh/github_rsa
+
+Host heroku.com
+ IdentityFile ~/.ssh/heroku_rsa

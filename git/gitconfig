@@ -1,0 +1,23 @@
+[user]
+	name = Your Name
+	email = your@email.com
+[github]
+	user = github-account
+	token = github-token
+[core]
+	excludesfile = ~/.gitignore
+	editor = vi
+[color]
+	ui = auto
+[diff]
+	tool = /Developer/Applications/Utilities/FileMerge.app
+[difftool]
+	prompt = false
+[alias]
+	lg = log --oneline --decorate
+	df = diff --word-diff
+	mg = merge --no-ff
+	po = push origin
+	com = commit -m
+	br = ls-remote --heads
+	ph = push heroku master
