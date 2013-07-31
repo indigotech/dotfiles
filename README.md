@@ -24,6 +24,16 @@ npm install -g xyz@0.1.11
   2. Choose target
   2. Run *Mobile* project 
 
+# Publishing the App
+
+- Server
+  1. bundle update
+  2. git push to heroku
+
+- iOS
+  1. Build and Archive target X
+  
+
 # Post Morten
 
 ---
