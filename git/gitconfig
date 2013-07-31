@@ -1,23 +1,74 @@
+# based on https://gist.github.com/1fdac345f35f3140444e.git
+
 [user]
 	name = Your Name
 	email = your@email.com
-[github]
-	user = github-account
-	token = github-token
-[core]
-	excludesfile = ~/.gitignore
-	editor = vi
-[color]
-	ui = auto
-[diff]
-	tool = /Developer/Applications/Utilities/FileMerge.app
-[difftool]
-	prompt = false
 [alias]
-	lg = log --oneline --decorate
-	df = diff --word-diff
-	mg = merge --no-ff
-	po = push origin
-	com = commit -m
-	br = ls-remote --heads
-	ph = push heroku master
+  com = commit -m
+  po = push origin
+  poi = push origin ios-develop
+  pos = push origin server-develop
+  poa = push origin android-develop
+  ploi = pull origin ios-develop
+  plos = pull origin server-develop
+  ploa = pull origin android-develop
+  mg = merge --no-ff
+  st = status -sb
+  br = ls-remote
+  lc = ls-files -u
+  ls = ls -la
+  a = add -A :/
+  s = status -sb
+  fo = fetch origin
+  fpo = fetch -p origin
+  fp = fetch -p
+  cl = clean -fdx
+ 
+  # alias bellow from http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/
+  logk = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  logf = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  lg = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  logm = log --merges --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  dl = "!git logf -1"
+  alias = "!git config -l | grep alias | cut -c 7-"
+  switch = !legit switch \"$@\"
+  branches = !legit branches
+  sprout = !legit sprout \"$@\"
+  unpublish = !legit unpublish \"$@\"
+  harvest = !legit harvest \"$@\"
+  sync = !legit sync \"$@\"
+  publish = !legit publish \"$@\"
+  graft = !legit graft \"$@\"
+ 
+  # alias bellow from http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/
+  assume   = update-index --assume-unchanged
+  unassume = update-index --no-assume-unchanged
+  assumed  = "!git ls-files -v | grep ^h | cut -c 3-"
+  snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+  ours   = "!f() { git checkout --ours $@ && git add $@; }; f"
+  theirs = "!f() { git checkout --theirs $@ && git add $@; }; f"
+ 
+[color]
+  ui = auto
+  branch = auto
+  diff = auto
+  grep = auto
+  interactive = auto
+  status = auto
+[advice]
+  pushNonFastForward = false
+  statusHints = false
+[diff]
+  renames = copies
+[merge]
+  stat = true
+  tool = opendiff
+[mergetool]
+  keepBackup = false
+  prompt = false
+[rerere]
+  enabled = 0
+[core]
+  pager = less -r
+[merge "ours"]
+  driver = true
