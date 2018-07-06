@@ -1,33 +1,22 @@
 Welcome Email
 
 
-Hi <first name>,
+Hi `<first name>`,
  
-Welcome! Your Taqtile mail credentials are listed bellow
+Welcome! 
+
+# Taqtile mail credentials
  
 http://mail.taqtile.com
-email:<email>@taqtile.com
-pass: <email password> (you'll have to change it after the 1st login)
+email: `<email>@taqtile.com`
+pass: `<email password>` (you'll have to change it after the 1st login)
 
-Mail Signature
+---
+
+# Mail Signature
 
 Generate your signature and paste in the signature box (Gmail Settings). Mobile phone is optional
 http://ndigo.com.br/assinatura/
-
- 
----
- 
-Redmine
- 
-http://redmine.taqtile.com
-login: <redmine username>
-senha: <redmine password>
- 
----
-
-Slack
-Use your @taqtile email to create your account. Use the user name you currently have for email (first_name.last_name)
-http://taqtile.slack.com/signup
 
  
 If you have any trouble please let me know.
