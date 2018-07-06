@@ -1,0 +1,35 @@
+Welcome!
+
+Here are the instructionos for some tools we use here at Taqtile.
+ 
+# Redmine credentials
+
+We use Redmine as our Timesheet tool. 
+
+http://redmine.taqtile.com
+login: `<redmine username>`
+senha: `<redmine password>` (you'll have to change it after the 1st login)
+ 
+---
+
+# Slack
+
+Use your @taqtile email to create your account. Use the user name you currently have for email (`<first_name.last_name>`)
+http://taqtile.slack.com/signup
+
+---
+
+# Passpack
+
+We use Passpack to manage our credentials to all Taqtile's services and also the ones used internally in projects. Before you are added, we need you to create an account following exactly the steps bellow. 
+
+As Passpack does not have the regular invitation process you are familiar with in other services, please read it carefully and follow exactly as is said in order to get the account sharing correctly set.
+
+1. Create an account at https://www.passpack.com/online/  
+2. Activate "Secure Collaboration Features" -https://support.passpack.com/hc/en-us/articles/200730564-How-to-Activate-Secure-Collaboration-Features  (when choosing the nickname, use the same name at @taqtile email -> “name.surname”)
+3. Reply this email informing the nickname you have choose for sharing (Attention: your nickname is not your user id. Your nickname can be found under “Settings” -> “Collaboration”)
+
+
+If you have any trouble please let me know.
+ 
+Cheers,
