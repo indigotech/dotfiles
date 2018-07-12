@@ -1,6 +1,6 @@
 Seja <bem-vindo(a)> < NOME >, 
 
-Para ficar um pouco mais por dentro da como as coisas funcionam aqui na Taqtile, recomendo que você comece lendo o nosso manual de entrada aqui na empresa.
+Para ficar um pouco mais por dentro de como as coisas funcionam aqui na Taqtile, recomendamos que você comece lendo o nosso manual de entrada aqui na empresa.
 
 <ESCOLHER MANUAL CORRETO (se "estag", escolhe manual de estag, se "efetivo", escolhe manual de efetivo) - arquivos vem [daqui](https://drive.google.com/drive/u/0/folders/0B5lrQ-1Squ_5fkhNMGZOWERXNjR6LWtkZi1TSk03ellqUWxBUVZRYkhWd3YtODB4TE9FZUU)>
 
